@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.az.dev">
+	<namespace>FOO</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="Cutomer" local-service="true" remote-service="false" table="customer">
+        <column name="id_customer" primary="true" type="long"></column>
+        <column name="name" type="String"></column>
+        <column name="age" type="String"></column>
+        <column name="email" type="String"></column>
+        
+        <finder name="byage" return-type="Collection">
+            <finder-column name="age"></finder-column>
+        </finder>
+    </entity>
+</service-builder>

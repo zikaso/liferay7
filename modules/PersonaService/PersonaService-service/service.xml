@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="PersonaService">
+	<namespace>ZAK</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="Persona" remote-service="false" local-service="true" table="persona" uuid="false">
+        <column name="id_persona" primary="true" type="long"></column>
+        <column name="fristName" type="String"></column>
+        <column name="lastName" type="String"></column>
+        <column name="age" type="int"></column>
+    </entity>
+</service-builder>

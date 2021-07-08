@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="PersonaService.model.Persona">
+		<field name="id_persona" type="long" />
+		<field name="fristName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="age" type="int" />
+	</model>
+</model-hints>

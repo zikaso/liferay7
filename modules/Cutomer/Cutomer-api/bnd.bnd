@@ -1,0 +1,10 @@
+Bundle-Name: Cutomer-api
+Bundle-SymbolicName: com.az.dev.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.az.dev.exception,\
+	com.az.dev.model,\
+	com.az.dev.service,\
+	com.az.dev.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Cutomer-service/service.xml

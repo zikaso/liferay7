@@ -1,0 +1,4 @@
+Bundle-Name: rojo
+Bundle-SymbolicName: rojo
+Bundle-Version: 1.0.0
+Export-Package: rojo.constants

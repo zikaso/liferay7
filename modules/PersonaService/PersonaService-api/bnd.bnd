@@ -1,0 +1,10 @@
+Bundle-Name: PersonaService-api
+Bundle-SymbolicName: PersonaService.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	PersonaService.exception,\
+	PersonaService.model,\
+	PersonaService.service,\
+	PersonaService.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../PersonaService-service/service.xml

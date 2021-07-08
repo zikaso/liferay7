@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:PersonaService:PersonaService-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../PersonaService-api/src/main/java"
+}
+
+group = "PersonaService"

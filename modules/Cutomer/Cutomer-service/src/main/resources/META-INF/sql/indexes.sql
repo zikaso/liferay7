@@ -1,0 +1,1 @@
+create index IX_D5D705CB on customer (age[$COLUMN_LENGTH:75$]);

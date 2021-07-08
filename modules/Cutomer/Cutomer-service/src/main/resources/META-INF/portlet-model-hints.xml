@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.az.dev.model.Cutomer">
+		<field name="id_customer" type="long" />
+		<field name="name" type="String" />
+		<field name="age" type="String" />
+		<field name="email" type="String" />
+	</model>
+</model-hints>
